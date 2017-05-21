@@ -4,7 +4,7 @@ var app = expess();
 app.listen(80,function(){
   console.log('Chatfuel Bot-Server listening on port 80...');
 });
-app.get('/*',function(req,res)){
+app.get('/*',function(req,res){
 
   var questions = {
   "Q1": {
